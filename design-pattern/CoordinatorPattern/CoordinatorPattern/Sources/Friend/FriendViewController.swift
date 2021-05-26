@@ -1,19 +1,21 @@
 //
-//  SecondViewController.swift
+//  FriendViewController.swift
 //  CoordinatorPattern
 //
-//  Created by taehy.k on 2021/05/24.
+//  Created by taehy.k on 2021/05/26.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController, Storyboarded {
+class FriendViewController: UIViewController {
     
-    weak var coordinator: MainCoordinator?
+    var coordinator: FriendCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+
+
 }
